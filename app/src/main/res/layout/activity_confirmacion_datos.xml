@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pa.adrian.desarrollandoaplicacion.ConfirmacionDatos"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tvActivity2Titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tituloConfirmarDatos"
+        android:layout_marginTop="@dimen/altura"
+        android:layout_gravity="center"
+        android:textSize="@dimen/confirmarDato"
+        />
+
+    <TextView
+        android:id="@+id/tvActivity2Nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nombreSinRellenar"
+        android:layout_marginTop="@dimen/altura"
+        android:textAlignment="center"
+        android:paddingRight="@dimen/padding"
+        android:paddingLeft="@dimen/padding"
+        />
+
+    <TextView
+        android:id="@+id/tvActivity2Fecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/altura"
+        android:paddingRight="@dimen/padding"
+        android:paddingLeft="@dimen/padding"
+        />
+
+    <TextView
+        android:id="@+id/tvActivity2Telefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/telefonoSinRellenar"
+        android:layout_marginTop="@dimen/altura"
+        android:paddingRight="@dimen/padding"
+        android:paddingLeft="@dimen/padding"
+        />
+
+    <TextView
+        android:id="@+id/tvActivity2Email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/emailSinRellenar"
+        android:layout_marginTop="@dimen/altura"
+        android:paddingRight="@dimen/padding"
+        android:paddingLeft="@dimen/padding"
+        />
+
+    <TextView
+        android:id="@+id/tvActivity2Descripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/descripcionSinRellenar"
+        android:layout_marginTop="@dimen/altura"
+        android:paddingRight="@dimen/padding"
+        android:paddingLeft="@dimen/padding"
+        />
+
+    <Button
+        android:id="@+id/btnBotonBack"
+        android:layout_width="@dimen/tamaño_boton_back"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_boton_back"
+        android:layout_gravity="center"
+        android:theme="@style/MiBoton"
+        android:layout_marginTop="@dimen/margen_top_boton_back"
+        />
+
+</LinearLayout>

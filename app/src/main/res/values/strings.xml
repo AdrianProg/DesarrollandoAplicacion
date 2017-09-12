@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">DesarrollandoAplicacion</string>
+    <string name="nombre">Nombre completo:</string>
+    <string name="telefono">Teléfono:</string>
+    <string name="email">Email:</string>
+    <string name="descripcion">Descripción de contacto:</string>
+    <string name="texto_boton">Siguiente</string>
+    <string name="seleccion_fecha">Fecha nacimiento</string>
+    <string name="tituloConfirmarDatos">Confirmar Datos</string>
+    <string name="nombreSinRellenar">Sin nombre</string>
+    <string name="telefonoSinRellenar">Sin teléfono</string>
+    <string name="emailSinRellenar">Sin email</string>
+    <string name="descripcionSinRellenar">Sin descripción</string>
+    <string name="texto_boton_back">Editar Datos</string>
+</resources>

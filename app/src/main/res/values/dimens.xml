@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding">16dp</dimen>
+    <dimen name="altura">30dp</dimen>
+    <dimen name="margen_top_boton_back">40dp</dimen>
+    <dimen name="tamaño_fecha">20sp</dimen>
+    <dimen name="confirmarDato">40dp</dimen>
+    <dimen name="tamaño_boton_back">200dp</dimen>
+</resources>
